@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="FireFox"/>
+  <test name="chrome">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="kaveri.SignUPTest"/>
+    </classes>
+  </test> <!-- chrome -->
+  <test name="FireFox">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="kaveri.SignUPTest"/>
+    </classes>
+  </test> <!-- FireFox -->
+</suite> <!-- Failed suite [Suite] -->

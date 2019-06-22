@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19608" started-at="2019-06-22T06:05:31Z" finished-at="2019-06-22T06:05:51Z">
+    <groups>
+    </groups>
+    <test name="chrome" duration-ms="17472" started-at="2019-06-22T06:05:31Z" finished-at="2019-06-22T06:05:48Z">
+      <class name="kaveri.SignUPTest">
+        <test-method status="PASS" signature="setupEnviornment(java.lang.String)[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="setupEnviornment" is-config="true" duration-ms="5570" started-at="2019-06-22T11:35:31Z" finished-at="2019-06-22T11:35:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnviornment -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="154" started-at="2019-06-22T11:35:37Z" finished-at="2019-06-22T11:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_Empty_Email()[pri:1, instance:kaveri.SignUPTest@1f03bb1]" name="validation_For_Empty_Email" duration-ms="174" started-at="2019-06-22T11:35:37Z" description="Validation check for empty Email field" finished-at="2019-06-22T11:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_Empty_Email -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="95" started-at="2019-06-22T11:35:37Z" finished-at="2019-06-22T11:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_Empty_Passward()[pri:2, instance:kaveri.SignUPTest@1f03bb1]" name="validation_For_Empty_Passward" duration-ms="166" started-at="2019-06-22T11:35:37Z" description="Validation check for empty Passward field" finished-at="2019-06-22T11:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_Empty_Passward -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="100" started-at="2019-06-22T11:35:37Z" finished-at="2019-06-22T11:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_incorrect_admin_Email()[pri:3, instance:kaveri.SignUPTest@1f03bb1]" name="validation_For_incorrect_admin_Email" duration-ms="379" started-at="2019-06-22T11:35:37Z" description="Validation check when Email other than kiran@gmail.com provided" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_incorrect_admin_Email -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="152" started-at="2019-06-22T11:35:38Z" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_invalid_Email_Format()[pri:4, instance:kaveri.SignUPTest@1f03bb1]" name="validation_For_invalid_Email_Format" duration-ms="283" started-at="2019-06-22T11:35:38Z" description="Validation check when Email format is not validd" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_invalid_Email_Format -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="154" started-at="2019-06-22T11:35:38Z" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_incorrect_admin_passward()[pri:5, instance:kaveri.SignUPTest@1f03bb1]" name="validation_For_incorrect_admin_passward" duration-ms="591" started-at="2019-06-22T11:35:38Z" description="Validation check when passward other than 123456 is provided" finished-at="2019-06-22T11:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_incorrect_admin_passward -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="209" started-at="2019-06-22T11:35:39Z" finished-at="2019-06-22T11:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="register_New_Member_Link_Navigation()[pri:6, instance:kaveri.SignUPTest@1f03bb1]" name="register_New_Member_Link_Navigation" duration-ms="386" started-at="2019-06-22T11:35:39Z" description="Verify Clicking on Register New Member navigate to Register a new membership page" finished-at="2019-06-22T11:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_New_Member_Link_Navigation -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="129" started-at="2019-06-22T11:35:39Z" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="i_already_have_a_membership_Link_Navigation()[pri:7, instance:kaveri.SignUPTest@1f03bb1]" name="i_already_have_a_membership_Link_Navigation" duration-ms="302" started-at="2019-06-22T11:35:40Z" description="Verify Clicking on I already have a membership navigate to signin page" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_already_have_a_membership_Link_Navigation -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="159" started-at="2019-06-22T11:35:40Z" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="verification_For_Email_field_Placeholder()[pri:8, instance:kaveri.SignUPTest@1f03bb1]" name="verification_For_Email_field_Placeholder" duration-ms="45" started-at="2019-06-22T11:35:40Z" description="verification For Email field Placeholder" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification_For_Email_field_Placeholder -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="94" started-at="2019-06-22T11:35:40Z" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="verification_For_passward_field_Placeholder()[pri:9, instance:kaveri.SignUPTest@1f03bb1]" name="verification_For_passward_field_Placeholder" duration-ms="46" started-at="2019-06-22T11:35:40Z" description="verification For Passward field Placeholder" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification_For_passward_field_Placeholder -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="clearFields" is-config="true" duration-ms="272" started-at="2019-06-22T11:35:40Z" finished-at="2019-06-22T11:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="login_with_valid_creditional()[pri:10, instance:kaveri.SignUPTest@1f03bb1]" name="login_with_valid_creditional" duration-ms="7116" started-at="2019-06-22T11:35:41Z" description="Successful login when valid creditional provided" finished-at="2019-06-22T11:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_creditional -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:kaveri.SignUPTest@1f03bb1]" name="closeBrowser" is-config="true" duration-ms="863" started-at="2019-06-22T11:35:48Z" finished-at="2019-06-22T11:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- kaveri.SignUPTest -->
+    </test> <!-- chrome -->
+    <test name="FireFox" duration-ms="19608" started-at="2019-06-22T06:05:31Z" finished-at="2019-06-22T06:05:51Z">
+      <class name="kaveri.SignUPTest">
+        <test-method status="PASS" signature="setupEnviornment(java.lang.String)[pri:0, instance:kaveri.SignUPTest@180d80f]" name="setupEnviornment" is-config="true" duration-ms="5974" started-at="2019-06-22T11:35:31Z" finished-at="2019-06-22T11:35:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnviornment -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="242" started-at="2019-06-22T11:35:37Z" finished-at="2019-06-22T11:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_Empty_Email()[pri:1, instance:kaveri.SignUPTest@180d80f]" name="validation_For_Empty_Email" duration-ms="180" started-at="2019-06-22T11:35:37Z" description="Validation check for empty Email field" finished-at="2019-06-22T11:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_Empty_Email -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="116" started-at="2019-06-22T11:35:37Z" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_Empty_Passward()[pri:2, instance:kaveri.SignUPTest@180d80f]" name="validation_For_Empty_Passward" duration-ms="192" started-at="2019-06-22T11:35:38Z" description="Validation check for empty Passward field" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_Empty_Passward -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="97" started-at="2019-06-22T11:35:38Z" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_incorrect_admin_Email()[pri:3, instance:kaveri.SignUPTest@180d80f]" name="validation_For_incorrect_admin_Email" duration-ms="381" started-at="2019-06-22T11:35:38Z" description="Validation check when Email other than kiran@gmail.com provided" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_incorrect_admin_Email -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="85" started-at="2019-06-22T11:35:38Z" finished-at="2019-06-22T11:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_invalid_Email_Format()[pri:4, instance:kaveri.SignUPTest@180d80f]" name="validation_For_invalid_Email_Format" duration-ms="272" started-at="2019-06-22T11:35:38Z" description="Validation check when Email format is not validd" finished-at="2019-06-22T11:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_invalid_Email_Format -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="108" started-at="2019-06-22T11:35:39Z" finished-at="2019-06-22T11:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="validation_For_incorrect_admin_passward()[pri:5, instance:kaveri.SignUPTest@180d80f]" name="validation_For_incorrect_admin_passward" duration-ms="414" started-at="2019-06-22T11:35:39Z" description="Validation check when passward other than 123456 is provided" finished-at="2019-06-22T11:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_For_incorrect_admin_passward -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="92" started-at="2019-06-22T11:35:39Z" finished-at="2019-06-22T11:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="register_New_Member_Link_Navigation()[pri:6, instance:kaveri.SignUPTest@180d80f]" name="register_New_Member_Link_Navigation" duration-ms="384" started-at="2019-06-22T11:35:39Z" description="Verify Clicking on Register New Member navigate to Register a new membership page" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_New_Member_Link_Navigation -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="76" started-at="2019-06-22T11:35:40Z" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="i_already_have_a_membership_Link_Navigation()[pri:7, instance:kaveri.SignUPTest@180d80f]" name="i_already_have_a_membership_Link_Navigation" duration-ms="349" started-at="2019-06-22T11:35:40Z" description="Verify Clicking on I already have a membership navigate to signin page" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_already_have_a_membership_Link_Navigation -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="96" started-at="2019-06-22T11:35:40Z" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="verification_For_Email_field_Placeholder()[pri:8, instance:kaveri.SignUPTest@180d80f]" name="verification_For_Email_field_Placeholder" duration-ms="36" started-at="2019-06-22T11:35:40Z" description="verification For Email field Placeholder" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification_For_Email_field_Placeholder -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="82" started-at="2019-06-22T11:35:40Z" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="verification_For_passward_field_Placeholder()[pri:9, instance:kaveri.SignUPTest@180d80f]" name="verification_For_passward_field_Placeholder" duration-ms="52" started-at="2019-06-22T11:35:40Z" description="verification For Passward field Placeholder" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification_For_passward_field_Placeholder -->
+        <test-method status="PASS" signature="clearFields()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="clearFields" is-config="true" duration-ms="102" started-at="2019-06-22T11:35:40Z" finished-at="2019-06-22T11:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFields -->
+        <test-method status="PASS" signature="login_with_valid_creditional()[pri:10, instance:kaveri.SignUPTest@180d80f]" name="login_with_valid_creditional" duration-ms="9974" started-at="2019-06-22T11:35:40Z" description="Successful login when valid creditional provided" finished-at="2019-06-22T11:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_creditional -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:kaveri.SignUPTest@180d80f]" name="closeBrowser" is-config="true" duration-ms="286" started-at="2019-06-22T11:35:50Z" finished-at="2019-06-22T11:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- kaveri.SignUPTest -->
+    </test> <!-- FireFox -->
+  </suite> <!-- Suite -->
+</testng-results>
